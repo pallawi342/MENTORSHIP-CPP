@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int j;
+    int j;       //there is no given value of j
     while(j<=10)
     {
         cout<<j<<endl;

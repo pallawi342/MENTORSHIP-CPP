@@ -2,15 +2,15 @@
 using namespace std;
 int main()
 {
-    int n, rev=0, r;
-    cout<<"enter the number ";
+    int n, sum=0;
+    cout<<"enter a number ";
     cin>>n;
     while(n!=0)
     {
-        r=n%10;
-        rev=rev*10+r;
+        int r=n%10;
+        sum=sum+r;
         n=n/10;
     }
-    cout<<rev;
+    cout<<sum;
     return 0;
 }
